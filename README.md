@@ -9,13 +9,13 @@ choice = int(input('enter a number:'))
 if choice >= 0:
   print(choice)
 else:
-  error.problem(8, 0)
+  error.problem(8, 0 ,'filename')
   
 # handling a exception during a try: loop;
 try:
   bad_thing
 except:
-  error.problem(15, 16)
+  error.problem(15, 16, 'filename')
 ```
 * To use in .gitmodules:
 Refer to [this repo.](https://github.com/Lord-Giganticus/Python-Modules)
