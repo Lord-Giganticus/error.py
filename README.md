@@ -11,9 +11,9 @@ if choice >= 0:
 else:
   error.problem(8, 0)
   
- # handling a exception during a try: loop;
- try:
+# handling a exception during a try: loop;
+try:
   bad_thing
- except:
+except:
   error.problem(15, 16)
- ```
+```
