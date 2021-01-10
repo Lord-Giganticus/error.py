@@ -17,3 +17,5 @@ try:
 except:
   error.problem(15, 16)
 ```
+* To use in .gitmodules:
+Refer to [this repo.](https://github.com/Lord-Giganticus/Python-Modules)
